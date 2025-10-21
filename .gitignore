@@ -1,0 +1,54 @@
+# .gitignore for Java projects and IntelliJ
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+
+# Build output
+/out/
+/build/
+/target/
+/bin/
+
+# Gradle
+/.gradle/
+.gradle/
+
+# Maven wrapper (keep the wrapper jar if present)
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse, NetBeans
+.classpath
+.project
+.settings/
+nbproject/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Other
+*.class
+
+# Allow README and source files
+!README.md
+!**/src/**
+
